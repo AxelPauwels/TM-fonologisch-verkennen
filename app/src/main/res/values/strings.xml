@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FonologischVerkennen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_voormeting">Voormeting</string>
+    <string name="title_activity_nammeting">Nameting</string>
+    <string name="title_activity_training_main">Training - Menu</string>
+    <string name="trainingButtonText1">Oefening 1 </string>
+    <string name="trainingButtonText2">Oefening 2 </string>
+    <string name="trainingButtonText3">Oefening 3 </string>
+    <string name="title_activity_training_oef1">Training - Intro</string>
+    <string name="title_activity_training_oef1b">Training - Oefening 1</string>
+    <string name="title_activity_training_oef2">Training - Oefening 2</string>
+    <string name="title_activity_oefening2">Training - Oefening 3</string>
+
+    <string name="title_activity_voormetingdesign">voormetingdesign</string>
+    <string name="title_activity_list_fragment">ListFragment</string>
+    <string name="title_activity_voormeetingdesign">voormeetingdesign</string>
+    <string name="dialog_title">Nieuwe meting</string>
+    <string name="dialog_enter_gegenvens">Opslaan</string>
+    <string name="title_activity_schermdraaien">schermdraaien</string>
+    <string name="scherm_draaien">Hou het scherm horizontaal om de test te beginnen</string>
+    <string name="title_activity_schermmoetdraaien">schermmoetdraaien</string>
+    <string name="title_activity_xxx">xxx</string>
+</resources>

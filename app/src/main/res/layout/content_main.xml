@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="be.thomasmore.fonologischverkennen.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/voorMeting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="buttonVoormeting_Click"
+            android:layout_weight="1"
+            android:text="Voor Meting" />
+
+        <Button
+            android:id="@+id/training"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="trainingMain_click"
+            android:layout_weight="1"
+            android:text="Training" />
+
+
+
+        <Button
+            android:id="@+id/naMeting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="buttonNaMeting_Click"
+            android:layout_weight="1"
+            android:text="Na meting" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="be.thomasmore.fonologischverkennen.TrainingOef1Activity"
+    tools:showIn="@layout/activity_training_oef1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plaat_rechts" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:visibility="gone"
+                android:layout_width="125dp"
+                android:layout_height="85dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:src="@drawable/arrow2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="210dp" />
+
+            <ImageView
+                android:id="@+id/textBallon"
+                android:visibility="gone"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:src="@drawable/text_ballon"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="85dp" />
+
+            <ImageView
+                android:id="@+id/verderKnop"
+                android:visibility="gone"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:padding="0dp"
+                android:src="@drawable/arrow_verder"
+                android:onClick="verder_click"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

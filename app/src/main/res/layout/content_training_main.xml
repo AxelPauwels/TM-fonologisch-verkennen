@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="be.thomasmore.fonologischverkennen.TrainingMainActivity"
+    tools:showIn="@layout/activity_training_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/training_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="training_oef1_click"
+            android:layout_weight="1"
+            android:text="@string/trainingButtonText1" />
+
+        <Button
+            android:id="@+id/training_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="training_oef2_click"
+            android:layout_weight="1"
+            android:text="@string/trainingButtonText2" />
+
+        <Button
+            android:id="@+id/training_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="training_oef3_click"
+            android:layout_weight="1"
+            android:text="@string/trainingButtonText3" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
